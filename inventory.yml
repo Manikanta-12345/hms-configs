@@ -1,0 +1,48 @@
+
+server:
+   port: 8081
+spring:
+  profiles:
+    active: dev
+  datasource:
+    username: root
+    password: root@123
+    url: jdbc://mysql://localhost:3306/inventory_db
+    driver-class-name: com.mysql.jdbc.Driver
+    
+---  
+spring:
+  profiles:
+    active: test
+  datasource:
+    username: root
+    password: root@123
+    url: jdbc://mysql://localhost:3306/inventory_db
+    driver-class-name: com.mysql.jdbc.Driver
+    
+    
+---
+spring:
+  profiles:
+    active: uat
+  datasource:
+    username: root
+    password: root@123
+    url: jdbc://mysql://localhost:3306/inventory_db
+    driver-class-name: com.mysql.jdbc.Driver
+    
+    
+---
+spring:
+  profiles:
+    active: prod
+  datasource:
+    username: root
+    password: root@123
+    url: jdbc://mysql://localhost:3306/inventory_db
+    driver-class-name: com.mysql.jdbc.Driver
+ 
+    
+   
+    
+       
