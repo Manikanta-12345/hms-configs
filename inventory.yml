@@ -12,7 +12,7 @@ spring:
   datasource:
     username: root
     password: root@123
-    url: jdbc://mysql://localhost:3306/inventory_test_db
+    url: jdbc://mysql://localhost:3306/inventory_dev_db
     driver-class-name: com.mysql.jdbc.Driver
     
 ---  
@@ -21,7 +21,7 @@ spring:
   datasource:
     username: root
     password: root@123
-    url: jdbc://mysql://localhost:3306/inventory_uat_db
+    url: jdbc://mysql://localhost:3306/inventory_test_db
     driver-class-name: com.mysql.jdbc.Driver
     
     
@@ -31,7 +31,7 @@ spring:
   datasource:
     username: root
     password: root@123
-    url: jdbc://mysql://localhost:3306/inventory_prod_db
+    url: jdbc://mysql://localhost:3306/inventory_uat_db
     driver-class-name: com.mysql.jdbc.Driver
     
     
@@ -41,7 +41,7 @@ spring:
   datasource:
     username: root
     password: root@123
-    url: jdbc://mysql://localhost:3306/inventory_db
+    url: jdbc://mysql://localhost:3306/inventory_prod_db
     driver-class-name: com.mysql.jdbc.Driver
  
     
