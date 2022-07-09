@@ -2,8 +2,7 @@
 server:
    port: 8081
 spring:
-  profiles:
-    active: dev
+  profiles: dev
   datasource:
     username: root
     password: root@123
@@ -12,8 +11,7 @@ spring:
     
 ---  
 spring:
-  profiles:
-    active: test
+  profiles: test
   datasource:
     username: root
     password: root@123
@@ -23,8 +21,7 @@ spring:
     
 ---
 spring:
-  profiles:
-    active: uat
+  profiles: uat
   datasource:
     username: root
     password: root@123
@@ -34,8 +31,7 @@ spring:
     
 ---
 spring:
-  profiles:
-    active: prod
+  profiles: prod
   datasource:
     username: root
     password: root@123
